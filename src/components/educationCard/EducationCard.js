@@ -16,6 +16,7 @@ export default function EducationCard({school}) {
       : null;
   };
   const {isDark} = useContext(StyleContext);
+//edit tech logo image size
 
   if (!school.logo)
     console.error(`Image of ${school.name} is missing in education section`);
